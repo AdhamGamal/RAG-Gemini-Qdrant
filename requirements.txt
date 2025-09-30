@@ -1,0 +1,5 @@
+qdrant-client
+requests
+tqdm
+dotenv
+# For Gemini API, you may need google-cloud-aiplatform or openai (if using compatible endpoints)
