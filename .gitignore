@@ -1,68 +1,44 @@
-# Byte-compiled / optimized / DLL files
+# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
+*.pyo
+*.pyd
+*.pkl
 *.so
 
-# Distribution / packaging
-.Python
+# Virtual environment
+.venv/
 env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+venv/
+ENV/
+*.envrc
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Jupyter Notebook checkpoints
+# Jupyter
 .ipynb_checkpoints
 
-# pyenv
-.python-version
-
-# mypy
-.mypy_cache/
-.dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# VS Code
+# IDE configs
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & debug
+*.log
+*.out
+*.err
+
+# Qdrant local storage
+qdrant_storage/
 
 # Environment variables
 .env
-.env.*
 
-# Qdrant data (if running locally)
-qdrant_storage/
-
-# Data files (optional, if you want to ignore large data)
-data/
+# Dependencies
+*.egg-info/
+.eggs/
+dist/
+build/
