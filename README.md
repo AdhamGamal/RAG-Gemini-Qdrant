@@ -99,7 +99,6 @@ Start a local Qdrant instance:
 ```bash
 docker run -d \
   -p 6333:6333 \
-  -p 6334:6334 \
   -v $(pwd)/qdrant_storage:/qdrant/storage \
   qdrant/qdrant
 ```
@@ -118,9 +117,7 @@ docker run -d \
 
 ### 5. Run the RAG pipeline
 
-```bash
-python main.py
-```
+You can test the pipeline using the `rag_notebook.ipynb`
 
 You should see output like:
 
