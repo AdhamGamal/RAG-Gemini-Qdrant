@@ -1,8 +1,23 @@
+# LangChain core
 langchain
 langchain-core
 langchain-community
-langchain-qdrant
-qdrant-client
+
+# Google Generative AI
 google-generativeai
-python-dotenv
+
+# Qdrant client & LangChain Qdrant integration
+qdrant-client
+langchain-qdrant
+
+# PDF processing
 pypdf
+
+# Environment variables
+python-dotenv
+
+# NLP Evaluation Metrics
+rouge-score
+bert-score
+nltk
+scikit-learn
